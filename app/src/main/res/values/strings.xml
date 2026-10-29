@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Shift Diary</string>
+
+    <!-- 底部导航 -->
+    <string name="tab_schedule">Schedule</string>
+    <string name="tab_tools">Tools</string>
+    <string name="tab_profile">Profile</string>
+
+    <!-- 各页面占位文案 -->
+    <string name="placeholder_schedule">Your shift roster will appear here</string>
+    <string name="placeholder_tools">Shift calculators, alarms and more</string>
+    <string name="placeholder_profile">Settings and about</string>
 </resources>
