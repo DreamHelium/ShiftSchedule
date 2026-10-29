@@ -1,13 +1,103 @@
 <resources>
     <string name="app_name">倒班日记</string>
 
-    <!-- 底部导航 -->
+    <!-- Bottom navigation -->
     <string name="tab_schedule">排班</string>
     <string name="tab_tools">工具</string>
     <string name="tab_profile">我的</string>
 
-    <!-- 各页面占位文案 -->
-    <string name="placeholder_schedule">排班表将显示在这里</string>
+    <!-- Placeholder screens -->
     <string name="placeholder_tools">倒班计算、闹钟等工具</string>
-    <string name="placeholder_profile">设置与关于</string>
+
+    <!-- Calendar -->
+    <string name="calendar_month_format">yyyy年M月</string>
+    <string name="calendar_full_date_format">yyyy年M月d日 EEEE</string>
+    <string name="calendar_today">今天</string>
+    <string name="calendar_prev_month">上个月</string>
+    <string name="calendar_next_month">下个月</string>
+    <string name="calendar_lunar_line">农历%1$s · %2$s年</string>
+    <string name="calendar_solar_term">节气 %1$s</string>
+    <string name="calendar_rest_day">法定假日</string>
+    <string name="calendar_work_day">调休上班</string>
+    <string name="badge_rest">休</string>
+    <string name="badge_work">班</string>
+
+    <!-- Settings -->
+    <string name="settings_title">设置</string>
+    <string name="settings_section_calendar">日历</string>
+    <string
+        name="settings_jump_to_other_month"
+    >点击相邻月份日期时跳到该月</string>
+    <string
+        name="settings_jump_to_other_month_description"
+    >点月历里补位的上/下月日期时，月历随之翻到那个月；关闭后只更新下方的日期详情。</string>
+
+    <!-- Shifts -->
+    <string name="shift_add_edit">添加/修改排班</string>
+    <string name="shift_editor_title">排班设置</string>
+    <string name="action_back">返回</string>
+    <string name="view_calendar">日历视图</string>
+    <string name="view_table">表格视图</string>
+    <string name="table_date_header">日期</string>
+    <string name="shift_crews_title">值 / 人员</string>
+    <string name="shift_crew_add">新建值</string>
+    <string name="shift_crew_edit">编辑值</string>
+    <string name="shift_crew_delete">删除值</string>
+    <string name="shift_crew_me">我</string>
+    <string name="shift_crew_set_me">这是我</string>
+    <string name="shift_crew_name">名称</string>
+    <string name="shift_crew_preset">轮换预设</string>
+    <string name="shift_crew_today_shift">今日班次</string>
+    <string name="shift_anchor_from_today">以今日班次为准</string>
+    <string
+        name="shift_override_legend"
+    >实心点：轮换班次 · 空心点：手动改过</string>
+    <string name="shift_section_presets">预设</string>
+    <string name="shift_section_types">班次类型</string>
+    <string name="shift_today_title">今日排班</string>
+    <string name="shift_day_title">班次</string>
+    <string name="shift_custom_tag">已自定义</string>
+    <string name="shift_no_preset">未设置预设</string>
+    <string name="shift_preset_add">新建预设</string>
+    <string name="shift_preset_edit">编辑预设</string>
+    <string name="shift_preset_delete">删除预设</string>
+    <string name="shift_type_add">新建班次</string>
+    <string name="shift_type_edit">编辑班次</string>
+    <string name="shift_type_delete">删除班次</string>
+    <string name="shift_type_in_use">已被预设使用，无法删除</string>
+    <string name="shift_name">名称</string>
+    <string name="shift_short_name">简称</string>
+    <string name="shift_rest_day">休息日</string>
+    <string name="shift_color">颜色</string>
+    <string name="shift_cycle_title">轮换</string>
+    <string name="shift_cycle_day">第 %1$d 天</string>
+    <string name="shift_cycle_add">添加一天</string>
+    <string name="shift_cycle_remove">删除最后一天</string>
+    <string name="shift_anchor">周期起始：%1$s</string>
+    <string name="shift_anchor_change">修改起始日期</string>
+    <string name="shift_active">当前</string>
+    <string name="shift_override_title">%1$s 的班次</string>
+    <string name="shift_override_clear">恢复预设</string>
+    <string name="shift_change_day">修改当日班次</string>
+    <string name="shift_days_count">%1$d 天一轮</string>
+    <string name="shift_date_format">yyyy年M月d日</string>
+    <string name="settings_section_shifts">排班</string>
+    <string name="settings_my_crew">我是哪个值</string>
+    <string
+        name="settings_my_crew_description"
+    >选择你的值别，以正确显示你的排班。</string>
+    <string name="settings_edit_shifts">修改排班</string>
+    <string
+        name="settings_edit_shifts_description"
+    >预设、班次类型与周期起始日期。</string>
+
+    <string-array name="weekday_short">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>日</item>
+    </string-array>
 </resources>

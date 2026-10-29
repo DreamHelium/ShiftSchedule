@@ -1,13 +1,103 @@
 <resources>
     <string name="app_name">Shift Diary</string>
 
-    <!-- 底部导航 -->
+    <!-- Bottom navigation -->
     <string name="tab_schedule">Schedule</string>
     <string name="tab_tools">Tools</string>
     <string name="tab_profile">Profile</string>
 
-    <!-- 各页面占位文案 -->
-    <string name="placeholder_schedule">Your shift roster will appear here</string>
+    <!-- Placeholder screens -->
     <string name="placeholder_tools">Shift calculators, alarms and more</string>
-    <string name="placeholder_profile">Settings and about</string>
+
+    <!-- Calendar -->
+    <string name="calendar_month_format">MMMM yyyy</string>
+    <string name="calendar_full_date_format">EEEE, MMMM d, yyyy</string>
+    <string name="calendar_today">Today</string>
+    <string name="calendar_prev_month">Previous month</string>
+    <string name="calendar_next_month">Next month</string>
+    <string name="calendar_lunar_line">Lunar %1$s · %2$s</string>
+    <string name="calendar_solar_term">Solar term %1$s</string>
+    <string name="calendar_rest_day">Public holiday</string>
+    <string name="calendar_work_day">Make-up workday</string>
+    <string name="badge_rest">Off</string>
+    <string name="badge_work">Work</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_calendar">Calendar</string>
+    <string
+        name="settings_jump_to_other_month"
+    >Jump to the tapped month</string>
+    <string
+        name="settings_jump_to_other_month_description"
+    >Tapping a greyed-out day from the previous or next month switches the calendar to that month.</string>
+
+    <!-- Shifts -->
+    <string name="shift_add_edit">Add / edit shifts</string>
+    <string name="shift_editor_title">Shift schedule</string>
+    <string name="action_back">Back</string>
+    <string name="view_calendar">Calendar view</string>
+    <string name="view_table">Table view</string>
+    <string name="table_date_header">Date</string>
+    <string name="shift_crews_title">Crews</string>
+    <string name="shift_crew_add">Add crew</string>
+    <string name="shift_crew_edit">Edit crew</string>
+    <string name="shift_crew_delete">Delete crew</string>
+    <string name="shift_crew_me">Me</string>
+    <string name="shift_crew_set_me">This is me</string>
+    <string name="shift_crew_name">Name</string>
+    <string name="shift_crew_preset">Rotation</string>
+    <string name="shift_crew_today_shift">Today’s shift</string>
+    <string name="shift_anchor_from_today">Set from today</string>
+    <string
+        name="shift_override_legend"
+    >Filled dot: rotation · hollow dot: edited by hand</string>
+    <string name="shift_section_presets">Presets</string>
+    <string name="shift_section_types">Shift types</string>
+    <string name="shift_today_title">Today\'s shift</string>
+    <string name="shift_day_title">Shift</string>
+    <string name="shift_custom_tag">customized</string>
+    <string name="shift_no_preset">No preset</string>
+    <string name="shift_preset_add">New preset</string>
+    <string name="shift_preset_edit">Edit preset</string>
+    <string name="shift_preset_delete">Delete preset</string>
+    <string name="shift_type_add">New shift type</string>
+    <string name="shift_type_edit">Edit shift type</string>
+    <string name="shift_type_delete">Delete shift type</string>
+    <string name="shift_type_in_use">In use by a preset; cannot delete</string>
+    <string name="shift_name">Name</string>
+    <string name="shift_short_name">Short label</string>
+    <string name="shift_rest_day">Rest day</string>
+    <string name="shift_color">Color</string>
+    <string name="shift_cycle_title">Cycle</string>
+    <string name="shift_cycle_day">Day %1$d</string>
+    <string name="shift_cycle_add">Add day</string>
+    <string name="shift_cycle_remove">Remove last day</string>
+    <string name="shift_anchor">Cycle starts on %1$s</string>
+    <string name="shift_anchor_change">Change start date</string>
+    <string name="shift_active">Active</string>
+    <string name="shift_override_title">Shift on %1$s</string>
+    <string name="shift_override_clear">Back to preset</string>
+    <string name="shift_change_day">Change this day</string>
+    <string name="shift_days_count">%1$d-day cycle</string>
+    <string name="shift_date_format">MMM d, yyyy</string>
+    <string name="settings_section_shifts">Shifts</string>
+    <string name="settings_my_crew">Which crew am I</string>
+    <string
+        name="settings_my_crew_description"
+    >Picks the crew whose shifts the calendar shows</string>
+    <string name="settings_edit_shifts">Edit shift schedule</string>
+    <string
+        name="settings_edit_shifts_description"
+    >Presets, shift types and the cycle start date.</string>
+
+    <string-array name="weekday_short">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
 </resources>
